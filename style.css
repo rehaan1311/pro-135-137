@@ -1,0 +1,59 @@
+body{
+background-size: cover;
+}
+
+.heading{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#start,#number_of_objects{
+font-size: 18px;
+}
+
+canvas{
+border: 2px solid gold;
+border-radius: 10px;
+margin-top: 130px;
+box-shadow: 5px 5px 5px whitesmoke;
+}
+
+.copy_right_footer{
+position: fixed;
+color: turquoise;
+bottom: 0px;
+width: 100%;
+background-color: red;
+line-height: 2;
+text-align: center;
+}
+
+/*share buttons*/
+.share-btn-container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: fixed;
+    bottom: 5%;
+    /*transform: translateY(-50%);*/
+}
+
+.share-btn-container a i{
+    font-size: 32px;
+}
+
+.share-btn-container a {
+    margin: 12px 0;
+    transition: 500ms;
+}
+
+.share-btn-container a:hover{
+    transform: scale(1.5);
+}
+
+.share-btn-container .fa-facebook{
+    color: #1877f2 ;
+}
